@@ -5,8 +5,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f7f3f8;
-    color: #333333;
+    background-color: pink;
+    color: brown;
     line-height: 1.6;
 }
 /* Wrapper for the entire page */
@@ -21,11 +21,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: #563d67;
+    background-color: lightpink;
 }
 
 .page-name {
-    color: white;
+    color: brown;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -37,7 +37,7 @@ body {
 }
 
 .page-nav a {
-    color: white;
+    color: brown;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
@@ -45,12 +45,12 @@ body {
 
 /* Hover and keyboard focus for every navigation link */
 .page-nav a:hover {
-    background-color: #806293;
+    background-color: lavender;
     text-decoration: underline;
 }
 
 .page-nav a:focus {
-    outline: 3px solid #ffdc73;
+    outline: 3px solid beige;
     outline-offset: 3px;
 }
 
@@ -62,28 +62,28 @@ body {
     height: 300px;
     padding: 20px;
     text-align: center;
-    background-color: #e9dff0;
+    background-color: white;
 }
 
 .welcome h1 {
-    color: #563d67;
+    color: purple;
 }
 
 .welcome-link {
     display: inline-block;
     padding: 10px 18px;
-    background-color: #563d67;
-    color: white;
+    background-color: lavender;
+    color: brown;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .welcome-link:hover {
-    background-color: #806293;
+    background-color: lavender;
 }
 
 .welcome-link:focus {
-    outline: 3px solid #333333;
+    outline: 3px solid purple;
     outline-offset: 3px;
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 .featured-section h2 {
-    color: #563d67;
+    color: brown;
 }
 
 /* Flexbox row of cards */
@@ -109,9 +109,9 @@ body {
     flex: 1 1 220px;
     padding: 20px;
     background-color: white;
-    border: 1px solid #dddddd;
+    border: 1px solid purple;
     border-radius: 8px;
-    box-shadow: 0 2px 5px #00000010;
+    box-shadow: 0 2px 5px purple;
 }
 
 .card img {
@@ -122,16 +122,16 @@ body {
 }
 
 .card a {
-    color: #563d67;
+    color: red;
     font-weight: bold;
 }
 
 .card a:hover {
-    color: #9064a8;
+    color: green;
 }
 
 .card a:focus {
-    outline: 2px solid #563d67;
+    outline: 2px solid green;
     outline-offset: 3px;
 }
 
@@ -139,8 +139,8 @@ body {
 .site-footer {
     padding: 15px;
     text-align: center;
-    background-color: #563d67;
-    color: white;
+    background-color: lavender;
+    color: brown;
 }
 
 
