@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f3f8;
+    color: #333333;
+    line-height: 1.6;
+}
+/* Wrapper for the entire page */
+.page-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Flexbox navigation bar */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #563d67;
+}
